@@ -9,6 +9,33 @@
 .aws/
 .ssh/
 
+# Visual Studio and legacy .NET build outputs
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esult*/
+[Dd]ebug/
+[Rr]elease/
+packages/
+artifacts/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.ilk
+*.log
+
+# ASP.NET / IIS local configuration and generated files
+*.publish.xml
+*.azurePubxml
+*.publishsettings
+*.deployment
+App_Data/
+
 # Terraform state and local working data
 **/.terraform/
 *.tfstate
